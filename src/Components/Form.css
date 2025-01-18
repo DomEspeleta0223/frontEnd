@@ -1,0 +1,111 @@
+/* Form.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #999999; /* Light background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://www.bing.com/th/id/OGC.0b0a6189a1ce7e245faa3fa777141d73?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fR91X87Jh9Je00%2fgiphy.gif&ehk=6oyI5zwTfmCc0Mxx73J1lRW5DAdasTRyvwM3fWJw5X4%3d');
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: center; /* Center the image */
+  }
+  
+  .FrontPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(41, 39, 39, 0.196);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .Form {
+    background-color: #a75a0e8d; /* Soft pet-themed background color */
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;  /* Smaller width for compact form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Allows the form to scroll if needed */
+    max-height: 70vh; /* Form height limited to 70% of screen height */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f2f2f2; /* Light brown color for the heading */
+    font-size: 24px; /* Smaller heading */
+    margin-bottom: 15px; /* Less space between heading and form inputs */
+  }
+  
+  .InfoToProvide {
+    margin-bottom: 10px; /* Slightly reduced space between fields */
+  }
+  
+  label {
+    font-size: 14px;
+    color: #e9e8e8; /* Dark grey color for labels */
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input {
+    width: 90%;
+    padding: 8px; /* Reduced padding for shorter input fields */
+    border: 2px solid #dedede; /* Light brown border color */
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #353434; /* Light pet-themed background color */
+    color: rgb(222, 222, 222);
+  }
+  
+  button {
+    width: 30%;
+    padding: 10px;
+    background-color: #3a3a3a; /* Pet-friendly greenish color */
+    border: none;
+    border-radius: 8px;
+    font-size: 14px; /* Smaller font for the button */
+    color: white;
+    cursor: pointer;
+    margin-top: 12px;
+    border-color: brown;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add smooth transition */
+    
+    
+  }
+  
+  button:hover {
+    background-color: #181818; /* Slightly darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  
+  button:active {
+    background-color: #1b1b1a; /* Darker green when clicked */
+    transform: scale(0.98); /* Slightly shrink the button when clicked */
+  }
+  
+  select {
+    width: 95%;
+    padding: 8px; /* Matching padding with input fields */
+    border: 2px solid #dedede; /* Light brown border color to match inputs */
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #353434; /* Light pet-themed background color */
+    color: rgb(222, 222, 222); /* Matching text color */
+    -webkit-appearance: none; /* Removes default styling in Safari */
+    -moz-appearance: none; /* Removes default styling in Firefox */
+    appearance: none; /* Removes default select styling in most browsers */
+  }
+  
+  select:focus {
+    border-color: #b4b4b4; /* A subtle green border color on focus */
+    outline: none; /* Removes default focus outline */
+  }
+  
+  
